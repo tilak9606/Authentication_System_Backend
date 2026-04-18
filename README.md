@@ -111,7 +111,7 @@ http://localhost:5000/api/auth
 | POST | `/logout` | Logout current user | Yes |
 | GET | `/verifyemail/:token` | Verify email with token | No |
 | POST | `/forgot-password` | Send password reset email | No |
-| PUT | `/reset-password:token` | Reset password with token | No |
+| PUT | `/reset-password/:token` | Reset password with token | No |
 | GET | `/me` | Get current user profile | Yes |
 
 ## Auth Details
